@@ -11,3 +11,15 @@ header{
     width: 5%;
 }
 
+
+.my-nav-list li,
+.my-nav-list li a {
+    display: inline-block;
+    font-size: 18px;
+}
+
+ul.my-nav-list {
+    margin: 0;
+    padding: 0;
+    
+}
