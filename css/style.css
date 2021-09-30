@@ -1,0 +1,13 @@
+.my-bg-black {
+    background-color: black;
+}
+
+header{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.container-fluid>div>img{
+    width: 5%;
+}
+
