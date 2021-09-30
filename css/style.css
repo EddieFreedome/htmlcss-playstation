@@ -16,10 +16,31 @@ header{
 .my-nav-list li a {
     display: inline-block;
     font-size: 18px;
+    list-style: none;
+    text-decoration: none;;
 }
 
 ul.my-nav-list {
     margin: 0;
     padding: 0;
     
+}
+
+.my-nav-list li {
+    padding: 0 10px
+}
+
+.my-nav-list i{
+    font-weight: medium;
+    font-size: 14px;
+    padding-left: 10px;
+    color: lightgray;
+}
+
+.my-nav-list button{
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    background-color: #363636;
+    border-color: #363636;
 }
