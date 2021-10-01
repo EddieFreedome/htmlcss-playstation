@@ -50,9 +50,12 @@ ul.my-nav-list {
 }
 
 main>div>img{
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     object-fit: cover;
+    z-index: -1;
 }
 
 .my-section-base{
@@ -78,7 +81,7 @@ main>div>img{
 .section-subtitle{
     font-size: 1.3rem;
     margin-bottom: 30px;
-    
+
 }
 
 .section-super{
