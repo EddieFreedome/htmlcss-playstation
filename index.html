@@ -11,11 +11,11 @@
 </head>
 <body class="bg-white">
     <!-- Inizio header -->
-    <header class="container-fluid">
+    <header class="container-fluid sticky-top">
         <div class="d-flex flex-row-reverse my-bg-black py-2">
             <img src="img/sony_logo.svg" alt="sony-logo">
         </div>
-        <div class="row">
+        <div class="row bg-white">
             <div class="col-1">
                 <img src="img/play_logo.svg" alt="play-logo">
             </div>
@@ -47,21 +47,57 @@
     </header>
 
     <main class="position-relative">
-        <div class="my-section-hero text-white ">
+        
+        <div class="my-section-hero my-section-large text-white ">
             <img src="img/jumbo-bg.png" class="" alt="returnal-jumbo">
-            <div class="my-section-base">
-                <img src="img/returnal-hero-banner-logo.png" class="w-25" alt="returnal-logo-title">
-                <h2>Rompi il cerchio</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nulla consequuntur fuga 
-                    quisquam earum mollitiatempore asperiores voluptates, veritatis architecto eligendi 
-                    tenetur modi consequatur ipsa deleniti soluta itaque voluptatum blanditiis.
-                </p>
+            <div class=".container">
+                <div class="row">
+                    <div class="col col-lg-3">
+                        <img src="img/returnal-hero-banner-logo.png" class="w-50 section-title" alt="returnal-logo-title">
+                        <h2 class="section-title">Rompi il cerchio</h2>
+                        <p class="section-text">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller
+                            fantascientifico, disponibile in esclusiva su PS5.
+                        </p>
+                        <div class="btn btn-danger">Acquista ora</div>
+                    </div>
+                </div>
             </div>
+        </div>
 
+        <!-- Cards -->
 
-
+        <div id="card-section" class="container my-section-medium">
+            <div class="row row-cols-6">
+                <div class="col">
+                    <img src="img/returnal-listing-thumb-01-ps5.jpg" class="fit-image border-img padding-cards border-color ;" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="fit-image padding-cards border-img " alt="">
+                </div>
+                <div class="col">
+                    <img src="img/returnal-listing-thumb-01-ps5.jpg" class="fit-image padding-cards border-img" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="fit-image padding-cards border-img" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/returnal-listing-thumb-01-ps5.jpg" class="fit-image padding-cards border-img" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="fit-image padding-cards border-img" alt="">
+                </div>
+                
+            </div>
         </div>
         
+        
+        
+        <!-- <section class="section-medium text-center">
+            <h6 class="section-super">PLAY HAS NO LIMITS</h6>
+            <h2 class="section-title">Ecco la PlayStation 5</h2>
+            <h5 class="section-subtitle">Tuffati in nuove possibilità di gioco completamente inaspettate</h5>
+        </section> -->
+
     </main>
     <footer></footer>
 </body>
