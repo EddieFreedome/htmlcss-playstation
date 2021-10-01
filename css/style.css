@@ -44,3 +44,44 @@ ul.my-nav-list {
     background-color: #363636;
     border-color: #363636;
 }
+
+.pad-over-nav{
+    padding-top: 89.9px;
+}
+
+main>div>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.my-section-base{
+    padding: 20px 0;
+}
+
+.my-section-medium{
+    padding: 40px 0;
+}
+
+.my-section-large{
+    padding: 50px 0;
+}
+
+.my-section-hero{
+    padding-top: 200px;
+}
+
+.section-title{
+
+}
+
+.section-subtitle{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    
+}
+
+.section-super{
+    font-size: .9rem;
+    
+}
