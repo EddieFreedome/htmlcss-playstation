@@ -7,9 +7,27 @@ header{
     padding-right: 0 !important;
 }
 
+
 .container-fluid>div>img{
     width: 5%;
 }
+
+h2{
+    font-size: 2.5rem !important;
+}
+
+h3{
+    font-size: 2.3rem !important;
+}
+
+h4{
+    font-size: 1.3rem !important;
+}
+
+h5, .small, footer{
+    font-size:0.9rem !important;
+}
+
 
 
 .my-nav-list li,
@@ -49,13 +67,32 @@ ul.my-nav-list {
     padding-top: 89.9px;
 }
 
-main>div>img{
+.main-container>div>img{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+#it-takes-two>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+#it-takes-two>{
+    width: 60%;
+}
+
+.logo-it-takes-two{
+    width: 60%;
 }
 
 #card-section>.row>.col>{
@@ -79,7 +116,7 @@ main>div>img{
 }
 
 .my-section-hero{
-    padding-top: 355px;
+    padding-top: 250px;
 }
 
 /*Section*/
@@ -123,4 +160,8 @@ object-fit: cover;
 
 .padding-cards{
     padding-top: 20px;
+}
+
+.h-image-10{
+    height: 20%;
 }
