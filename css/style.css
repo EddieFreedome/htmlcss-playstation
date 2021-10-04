@@ -87,20 +87,28 @@ ul.my-nav-list {
     opacity: 0.85;
 }
 
-#it-takes-two>{
+/* #it-takes-two>{
     width: 60%;
-}
+} */
 
 .logo-it-takes-two{
     width: 60%;
 }
 
-#card-section>.row>.col>{
+/* #card-section>.row>.col>{
 
-}
+} */
 
 #no-limits h6{
     color: #2d64e6;
+}
+
+#nuove-uscite{
+    background-color: #1f1f1f;
+}
+
+#nuove-uscite img{
+    border-radius: 20px;
 }
 
 .my-section-base{
@@ -143,9 +151,10 @@ margin-bottom: 30px;
 /*UTILITIES*/
 
 .fit-image{
-width: 100%;
+width: 100%;    /*for backgrounds and hero*/
 object-fit: cover;
 }
+
 .padding-border-cards{
     padding: .25rem;
 }
@@ -164,4 +173,8 @@ object-fit: cover;
 
 .h-image-10{
     height: 20%;
+}
+
+.w-img-85{
+    width:85%;
 }
