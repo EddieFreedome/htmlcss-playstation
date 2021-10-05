@@ -28,6 +28,10 @@ h5, .small, footer{
     font-size:0.9rem !important;
 }
 
+.gutter-reset{
+    --bs-gutter-x: 0;
+}
+
 /*My-section*/
 .my-section-base{
     padding: 30px 0;
@@ -42,7 +46,7 @@ h5, .small, footer{
 }
 
 .my-section-hero{
-    padding-top: 250px;
+    padding-top: 355px;
 }
 
 /*Section*/
@@ -100,7 +104,7 @@ ul.my-nav-list {
 }
 
 .pad-over-nav{
-    padding-top: 89.9px;
+    margin-top: 89.9px;
 }
 
 .main-container>div>img{
@@ -112,6 +116,15 @@ ul.my-nav-list {
     z-index: -1;
 }
 
+/* .main-container>div>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+} */
+
 #it-takes-two>img{
     position: absolute;
     top: 0;
@@ -121,6 +134,16 @@ ul.my-nav-list {
     object-fit: cover;
     z-index: -1;
     opacity: 0.85;
+}
+
+#returnal>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .playstation-now{
@@ -193,7 +216,9 @@ object-fit: cover;
     width:85%;
 }
 
-
+.w-img-15{
+    width: 15%;
+}
 
 /*Button Effects*/
 
@@ -217,7 +242,7 @@ object-fit: cover;
     color: #0072ce;
 }
 
-.returnal a, #it-takes-two a{
+#returnal a, #it-takes-two a{
     background-color: #CD3C0F;;
 }
 
@@ -241,6 +266,7 @@ footer a {
     color: white;
 }
 
-footer:last-child{
+footer .col-6 a{
     text-decoration: underline;
+    padding: 0 !important;
 }
