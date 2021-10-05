@@ -135,6 +135,7 @@ ul.my-nav-list {
     width: 60%;
 }
 
+
 /* #card-section>.row>.col>{
 
 } */
@@ -153,6 +154,10 @@ ul.my-nav-list {
 
 .playstation-plus{
     background-color: #BEBCBB;
+}
+
+footer{
+    background-color: #00439c;
 }
 
 
@@ -192,7 +197,7 @@ object-fit: cover;
 
 /*Button Effects*/
 
-.button-std{
+.button-std, footer a{
     text-decoration: none;
     border-radius: 20px;
     padding: 10px 15px;
@@ -214,4 +219,28 @@ object-fit: cover;
 
 .returnal a, #it-takes-two a{
     background-color: #CD3C0F;;
+}
+
+.world-img-footer{
+    width: 4%;
+}
+.play-img-footer{
+    width: 15%;
+}
+
+.reset-properties{
+    margin-bottom: 0rem !important;
+    padding-bottom: 0 !important;
+}
+
+.padding-left-10{
+    padding-left: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer:last-child{
+    text-decoration: underline;
 }
